@@ -1,10 +1,12 @@
-let indice = 12;
-let soma = 0;
-let k = 1;
+let INDICE = 13;
+let SOMA = 0;
+let K = 0;
 
-while (k < indice) {
-    k = k + 1;
-    soma = soma + k;
+while (K < INDICE) {
+    K += 1;
+    SOMA += K;
 }
 
-console.log(`O valor da variável SOMA é ${soma}`);
+
+
+console.log(`O valor da variável SOMA é ${SOMA}`);
